@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="booking.css">
+    <title>Tickethack</title>
+</head>
+
+<body>
+    
+    <div class="first_page" id="index_background">
+          
+        <nav>
+            <div id="navbar_container">
+                <div id="logo">
+                    <h2><a href="index.html">Tickethack</a></h2>
+                </div>
+                <div id="right-box">
+                    <a href="cart.html">Cart</a>
+                    <a href="booking.html">Bookings</a>
+                </div>
+            </div> 
+        </nav>
+
+
+    
+              <!-- CONTAINER PRINCIPAL -->
+        <div id="main_container">
+            <div class="page_title">
+                <h1>Explore the world effortlessly by train !</h1>
+                <h3>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</h3>
+            </div>
+
+             <!-- BOXES DE RECHERCHE ET PRIX  -->
+            <div id="box_view_trips">
+
+                  <!-- BOX DE RECHERCHE -->
+                <div class="search_all_boxes" id="search_rigth_box">
+                    <form id="search_form">
+                         <!-- LES INPUT -->
+                      <div id="input_recherche">
+                        <input  class="style_input"  type="text" id="depart" name="depart" placeholder="Departure" required>
+                        <hr>
+                        <input   class="style_input" type="text" id="arrivee" name="arrivee" placeholder="Arrival" required>
+                        <div id="input_date">
+                            <input  class="style_input" style="width: 99.4%;" type="date" id="date" name="date" value="2023-10-26" min="2023-01-01" max="2023-12-31" required>
+                          </div>
+                      </div>
+                     
+                      <div id="button_form">
+                       <button>Rerchercher</button>
+                      </div>
+                    </form>
+                </div>
+                
+
+                <!-- BOX DES PRIX -->
+                <div class="search_all_boxes">
+
+                    <!-- IF searching is False -->
+                    <div id="container_not_found" class="box_right_train">
+                        <img src="images/notfound.png" alt="">
+                        <hr>
+                        <p>No trip found.</p>            
+                    </div>
+
+                    <!-- IF search is True -->
+                    <div id="container_found_trip" class="box_right_train">
+                        <img src="images/train.png" alt="">
+                        <hr>
+                        <p>It's time to book your future trips</p>            
+                    </div>
+                
+                    <!-- WHEN the search is True -->
+                    <div id="container_trip_view">
+                        <div id="timetable_train">
+                            <div id="p_trips_box">
+                                <p>Paris -> Lyon</p>
+                            </div>
+                            <div id="p_timetable_box">
+                                <p>19:33</p>
+                            </div>
+                            <div id="p_price_box">
+                                <p>53€</p>
+                            </div>
+                            <button>Book</button>
+                        </div>   
+
+                        
+                        <div id="timetable_train" class="margin_box">
+                            <div id="p_trips_box">
+                                <p>Paris -> Lyon</p>
+                            </div>
+                            <div id="p_timetable_box">
+                                <p>19:33</p>
+                            </div>
+                            <div id="p_price_box">
+                                <p>53€</p>
+                            </div>
+                            <button>Book</button>
+                        </div> 
+                        <div id="timetable_train" class="margin_box">
+                            <div id="p_price_box">
+                                <p>Paris -> Lyon</p>
+                            </div>
+                            <div id="p_timetable_box">
+                                <p>19:33</p>
+                            </div>
+                            <div id="p_price_box">
+                                <p>53€</p>
+                            </div>
+                            <button>Book</button>
+                        </div> 
+                        <div id="timetable_train" class="margin_box">
+                            <div id="p_trips_box">
+                                <p>Paris -> Lyon</p>
+                            </div>
+                            <div id="p_timetable_box">
+                                <p>19:33</p>
+                            </div>
+                            <div id="p_price_box">
+                                <p>53€</p>
+                            </div>
+                            <button>Book</button>
+                        </div> 
+                        <div id="timetable_train" class="margin_box">
+                            <div id="p_trips_box">
+                                <p>Paris -> Lyon</p>
+                            </div>
+                            <div id="p_timetable_box">
+                                <p>19:33</p>
+                            </div>
+                            <div id="p_price_box">
+                                <p>53€</p>
+                            </div>
+                            <button>Book</button>
+                        </div> 
+                        <div id="timetable_train" class="margin_box">
+                            <div id="p_trips_box">
+                                <p>Paris -> Lyon</p>
+                            </div>
+                            <div id="p_timetable_box">
+                                <p>19:33</p>
+                            </div>
+                            <div id="p_price_box">
+                                <p>53€</p>
+                            </div>
+                            <button>Book</button>
+                        </div> 
+                        <div id="timetable_train" class="margin_box">
+                            <div id="p_trips_box">
+                                <p>Paris -> Lyon</p>
+                            </div>
+                            <div id="p_timetable_box">
+                                <p>19:33</p>
+                            </div>
+                            <div id="p_price_box">
+                                <p>53€</p>
+                            </div>
+                            <button>Book</button>
+                        </div> 
+                    </div>
+                </div>
+    
+                </div>
+            </div>
+        </div>
+
+    <!-- FOOTER  -->
+        <div id="footer">
+            &copy; 2023 Toto in da place. All rights reserved bitch.
+        </div>
+
+</body>
+</html>
