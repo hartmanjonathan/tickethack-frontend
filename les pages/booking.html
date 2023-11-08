@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="booking.css">
+    <title>Booking</title>
+</head>
+<body>
+    <div class="first_page">
+        <!-- Nav bar -->
+        <nav>
+            <div id="container_navbar">
+                <div id="logo">
+                    <h2><a href="index.html">Tickethack</a></h2>
+                </div>
+                <div id="rigth-box">
+                    <a href="cart.html">Cart</a>
+                    <a href="booking.html">Bookings</a>
+                </div>
+            </div> 
+        </nav>
+            <!-- Scenario 1 - the booking is empty (false) -->
+        <div id="booking_false">
+            <h2>No booking yet</h2>
+            <h2>Why not plan a trip?</h2>
+        </div>
+
+            <!--  Scenario 2 - the booking has  (true) -->
+        <div id="booking_true">
+            <div class="booking_summary">
+                <h3>My Bookings</h3>
+                <div class="booking_trip">
+                        <!-- summary of bookings : trip/time/total  + button -->
+                        <p> Trips - Time- Total</p>
+                        <p>Departure in:</p>
+                </div>
+                <hr>
+                <p>Enjoy your travels with Tickethack</p>
+            </div>
+            
+        </div>
+        
+    </div>
+</html>

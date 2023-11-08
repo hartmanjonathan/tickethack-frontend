@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="booking.css">
+    <title>Cart</title>
+</head>
+<body>
+    <div class="first_page">
+        <!-- Nav bar -->
+        <nav>
+            <div id="container_navbar">
+                <div id="logo">
+                    <h2><a href="index.html">Tickethack</a></h2>
+                </div>
+                <div id="rigth-box">
+                    <a href="cart.html">Cart</a>
+                    <a href="booking.html">Bookings</a>
+                </div>
+            </div> 
+        </nav>
+
+            <!-- Scenario 1 - the cart result is empty -->
+            <div id="cart_false">
+                <h2>No tickets in your cart</h2>
+                <h2>Why not plan a trip?</h2>
+            </div>
+   
+            <!--  Scenario 2 - the cart result is true -->
+            <div id="cart_true">
+                <div class="cart_summary">
+                    <h3>My Cart</h3>
+                        <!-- summary of cart : trip/time/total  + button -->
+                    <div class="cart_trip">
+                        <p>Marseille - Time - Price</p>
+                        <p>Total: </p>
+                        <button id="delete-button"> <img src="" alt="Delete">
+                        </button>
+                    </div>
+                    <div class="cart_total">
+                        <h3>Total</h3> 
+                        <button id="cart_validated">Purchase</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>   
+</html>
