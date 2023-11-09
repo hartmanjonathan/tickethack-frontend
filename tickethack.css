@@ -25,6 +25,7 @@
     grid-column-end: 13;
     display: flex;
     background-color:white;
+    justify-content: space-between;
     
   }
 
@@ -54,9 +55,9 @@
     font-size: 16px;
     padding: 10px 10px;
     justify-content: right;
-
+    
   }
-
+s
   #txtTickethack{
     width: 90%;
     display: flex;
@@ -72,15 +73,43 @@
     grid-row-end: 10;
     grid-column-start: 3;
     grid-column-end: 6;
-    background-color: gold;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+   
+   
   }
   
+  
+ 
+
+
+
+
+
   #partdroite {
     grid-row-start: 4;
     grid-row-end: 10;
     grid-column-start: 7;
     grid-column-end: 10;
-    background-color: red;
+    background-color: white;
+    background-color:white;
+    justify-content: center;
+    align-items: center;
   }
   
- 
+  #partdroite img{
+   display:flex
+   justify-content: center;
+  }
+
+  #partdroite p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  
